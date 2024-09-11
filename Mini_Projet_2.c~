@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+	int i = 7, j;
+
+	struct contact {
+	
+                         char nom[];       
+                         int numero[];       
+                         char email[];       
+	}
+	while (i!=0) {
+		printf("que voulez vous faire?\n");
+		printf("0. Quittez\n");
+		printf("1. Ajouter un contact\n");
+
+			scanf("%d",&i);
+
+		switch(i)
+
+		{
+			struct contact j;
+			case 1:
+				printf("Veuillez saisir le nom du contact \n");
+				scanf("%s",nom);
+				printf("Veuillez saisir le numero de telephone du contact \n");
+				scanf("%d",numero);
+				printf("Veuillez saisir l'adresse email du contact \n");
+				scanf("%s",email);
+		}}}
